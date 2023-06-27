@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './Pages/App/App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from "react-router-dom";
-import {LocalizationProvider} from "./context/LocalizationContext";
+import { BrowserRouter } from "react-router-dom";
+import { LocalizationProvider } from "./context/LocalizationContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <LocalizationProvider>
-    <App />
-    </LocalizationProvider>
+      <LocalizationProvider>
+        <App />
+      </LocalizationProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

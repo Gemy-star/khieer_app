@@ -7,10 +7,12 @@
   font-family: Almarai-ExtraBold;
   src: url('../../assets/fonts/Almarai-ExtraBold.ttf');
 }
+
 @font-face {
   font-family: Almarai-Light;
   src: url('../../assets/fonts/Almarai-Light.ttf');
 }
+
 @font-face {
   font-family: Almarai-Regular;
   src: url('../../assets/fonts/Almarai-Regular.ttf');
@@ -20,10 +22,12 @@
   font-family: Roboto-Regular;
   src: url('../../assets/fonts/Roboto-Regular.ttf');
 }
+
 @font-face {
   font-family: Roboto-Thin;
   src: url('../../assets/fonts/Roboto-Thin.ttf');
 }
+
 @font-face {
   font-family: Roboto-ThinItalic;
   src: url('../../assets/fonts/Roboto-ThinItalic.ttf');
@@ -33,7 +37,22 @@
   font-family: Roboto-Meduim;
   src: url('../../assets/fonts/Roboto-Medium.ttf');
 }
+
 @font-face {
   font-family: Roboto-Bold;
   src: url('../../assets/fonts/Roboto-Bold.ttf');
+}
+
+.w-30 {
+  width: auto !important;
+  max-width: 30rem;
+}
+
+
+.blue-khieer {
+  color : #2D6D93
+}
+
+.green-khieer {
+  color: #5DBD7E;
 }
