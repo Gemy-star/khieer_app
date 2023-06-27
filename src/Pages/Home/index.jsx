@@ -4,7 +4,7 @@ import KheerShow from "../../Components/Home/KheerShows";
 const Home = props =>  {
     return(
         <section>
-         {/* <KheerShow/> */}
+         <KheerShow/>
         </section>
     )
 }

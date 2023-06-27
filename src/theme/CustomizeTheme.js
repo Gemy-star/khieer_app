@@ -10,7 +10,7 @@ const theme = createTheme({
       primaryLightHover: '$green300',
       primaryLightActive: '$green400',
       primaryLightContrast: '$green600',
-      primary: '#4ADE7B',
+      primary: '#5DBD7E',
       primaryBorder: '$green500',
       primaryBorderHover: '$green600',
       primarySolidHover: '$green700',
@@ -21,7 +21,7 @@ const theme = createTheme({
       link: '#5E1DAD',
 
       // you can also create your own color
-      myColor: '#ff4ecd'
+      myColor: '#5DBD7E'
 
       // ...  more colors
     },
